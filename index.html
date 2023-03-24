@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML Page Example</title>
+    <style>
+      /* Styles for the banner */
+      #banner {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      #banner h1 {
+        margin: 0;
+      }
+      
+      /* Styles for the menu */
+      #menu {
+        background-color: #ccc;
+        padding: 10px;
+      }
+      #menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      #menu li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+      
+      /* Styles for the table */
+      table {
+        border-collapse: collapse;
+        margin-top: 20px;
+        width: 100%;
+      }
+      th, td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: left;
+      }
+      th {
+        background-color: #eee;
+        font-weight: bold;
+      }
+      
+      /* Styles for the form */
+      form {
+        margin-top: 20px;
+      }
+      label, input, textarea {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+      }
+      label {
+        font-weight: bold;
+      }
+      input, textarea {
+        padding: 5px;
+      }
+      input[type="submit"] {
+        background-color: #333;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        padding: 10px;
+      }
+      input[type="submit"]:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Banner -->
+    <div id="banner">
+      <h1>HTML Page Example</h1>
+    </div>
+    
+    <!-- Menu -->
+    <div id="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    
+    <!-- Table -->
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>john@example.com</td>
+          <td>(11) 5555-5555</td>
+        </tr>
+        <tr>
+          <td>Mary</td>
+          <td>mary@example.com</td>
+          <td>(11) 5555-5556</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <!-- Contact Form -->
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      
+      <input type="submit" value="Send">
+    </form>
+  </body>
+</html>
+
